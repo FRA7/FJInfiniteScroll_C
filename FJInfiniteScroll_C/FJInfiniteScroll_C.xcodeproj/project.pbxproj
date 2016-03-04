@@ -13,6 +13,8 @@
 		15B5F4121C89CFFE00683261 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15B5F4101C89CFFE00683261 /* Main.storyboard */; };
 		15B5F4141C89CFFE00683261 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15B5F4131C89CFFE00683261 /* Assets.xcassets */; };
 		15B5F4171C89CFFE00683261 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15B5F4151C89CFFE00683261 /* LaunchScreen.storyboard */; };
+		15B5F4201C89D14F00683261 /* FJImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B5F41F1C89D14F00683261 /* FJImageCell.m */; };
+		15B5F4221C89D16C00683261 /* FJImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15B5F4211C89D16C00683261 /* FJImageCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		15B5F4131C89CFFE00683261 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15B5F4161C89CFFE00683261 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15B5F4181C89CFFE00683261 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15B5F41E1C89D14F00683261 /* FJImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJImageCell.h; sourceTree = "<group>"; };
+		15B5F41F1C89D14F00683261 /* FJImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJImageCell.m; sourceTree = "<group>"; };
+		15B5F4211C89D16C00683261 /* FJImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FJImageCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +72,9 @@
 				15B5F4151C89CFFE00683261 /* LaunchScreen.storyboard */,
 				15B5F4181C89CFFE00683261 /* Info.plist */,
 				15B5F4071C89CFFE00683261 /* Supporting Files */,
+				15B5F41E1C89D14F00683261 /* FJImageCell.h */,
+				15B5F41F1C89D14F00683261 /* FJImageCell.m */,
+				15B5F4211C89D16C00683261 /* FJImageCell.xib */,
 			);
 			path = FJInfiniteScroll_C;
 			sourceTree = "<group>";
@@ -140,6 +148,7 @@
 				15B5F4171C89CFFE00683261 /* LaunchScreen.storyboard in Resources */,
 				15B5F4141C89CFFE00683261 /* Assets.xcassets in Resources */,
 				15B5F4121C89CFFE00683261 /* Main.storyboard in Resources */,
+				15B5F4221C89D16C00683261 /* FJImageCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +162,7 @@
 				15B5F40F1C89CFFE00683261 /* ViewController.m in Sources */,
 				15B5F40C1C89CFFE00683261 /* AppDelegate.m in Sources */,
 				15B5F4091C89CFFE00683261 /* main.m in Sources */,
+				15B5F4201C89D14F00683261 /* FJImageCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
