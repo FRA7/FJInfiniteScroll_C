@@ -42,5 +42,20 @@ static NSString *FJImageCellID = @"FJImageCellID";
     
 }
 
+#pragma mark - <UICollectionViewDataSource>
+-(NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section{
+    return FJItemCount;
+}
+-(UICollectionViewCell*)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
+    
+    FJImageCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:FJImageCellID forIndexPath:indexPath];
+    
+    cell.imageView.image = [UIImage imageNamed:[NSString stringWithFormat:@"img_0%zd",indexPath.item % 5]];
+    
+    NSLog(@"%zd",indexPath.item);
+    
+    return cell;
+}
+
 
 @end
