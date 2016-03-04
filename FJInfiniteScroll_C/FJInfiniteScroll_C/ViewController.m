@@ -39,6 +39,8 @@ static NSString *FJImageCellID = @"FJImageCellID";
     //注册cell
     [collectionView registerNib:[UINib nibWithNibName:NSStringFromClass([FJImageCell class]) bundle:nil] forCellWithReuseIdentifier:FJImageCellID];
     
+    //默认显示中间的cell
+    [collectionView scrollToItemAtIndexPath:[NSIndexPath indexPathForItem:FJItemCount / 2 inSection:0] atScrollPosition:UICollectionViewScrollPositionNone animated:NO];
     
 }
 
