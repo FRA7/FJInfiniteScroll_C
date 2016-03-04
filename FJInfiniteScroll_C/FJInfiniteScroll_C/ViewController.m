@@ -57,5 +57,15 @@ static NSString *FJImageCellID = @"FJImageCellID";
     return cell;
 }
 
+#pragma mark - <UICollectionViewDelegate>
+-(void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView{
+    
+    NSInteger index = scrollView.contentOffset.x / scrollView.frame.size.width;
+    
+    NSInteger item = (FJItemCount / 2) + (index % 5);
+    //设置collectionView无限滚动
+    [(UICollectionView *)scrollView scrollToItemAtIndexPath:[NSIndexPath indexPathForItem:item inSection:0] atScrollPosition:UICollectionViewScrollPositionNone animated:NO];
+    
+}
 
 @end
